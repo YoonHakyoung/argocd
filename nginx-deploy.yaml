@@ -27,6 +27,6 @@ spec:
   - name: nginx
     port: 80
     targetPort: 80
-selector:
-  app: nginx
-type: LoadBalancer
+  selector:
+    app: nginx
+  type: LoadBalancer
